@@ -205,7 +205,7 @@ const Shape = ({
             classes += " border-right";
           }
         }
-        classes += " square-shape-size ";
+        classes += " square-shape-size square-pointer-events";
 
         shapeDisplay.push(
           <Square key={`${i}-${j}`} classes={classes} size={size}></Square>

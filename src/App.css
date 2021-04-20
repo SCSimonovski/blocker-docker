@@ -64,6 +64,10 @@
   border: 1px solid var(--square-borders-color);
 }
 
+.square-pointer-events {
+  pointer-events: none;
+}
+
 .board-borders {
   border: none;
   border-right: 1px solid var(--square-borders-color);
